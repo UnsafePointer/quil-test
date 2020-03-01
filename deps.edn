@@ -1,0 +1,5 @@
+{:paths   ["src"]
+ :deps    {org.clojure/clojure {:mvn/version "1.10.1"}
+           quil {:mvn/version "3.1.0"}}
+ :aliases {:uberjar  {:extra-deps {uberdeps {:mvn/version "0.1.4"}}
+                      :main-opts  ["-m" "uberdeps.uberjar" "--target" "target/quil-test-0.1.0.jar"]}}}
