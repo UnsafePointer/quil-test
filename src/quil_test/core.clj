@@ -9,7 +9,7 @@
 
 (defn setup []
   (q/frame-rate 10)
-  (q/color-mode :hsb)
+  (q/color-mode :rgb)
   (q/no-stroke)
   state)
 
